@@ -10,11 +10,7 @@ Created on Wed Oct 10 21:15:50 2018
 list = [2,46,445,-2,-4,-6,-33]
 list2 = []
 
-for x in list:
-    if (x >= 0):
-        pass
-    else:
-        list2.append(x)
-print(list2)
-        
-
+for num in list:
+    
+    if num < 0:
+       print(num, end = " ")
